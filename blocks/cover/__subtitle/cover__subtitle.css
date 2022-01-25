@@ -1,0 +1,39 @@
+.cover__subtitle {
+    position: absolute;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 114%;
+    text-align: center;
+    color: #ffffff;
+    margin: 119px auto 0;
+    z-index: 1;
+  }
+
+  @media (min-width: 540px) {
+    .cover__subtitle {
+    /*При растяжении страницы текст остается у левого края, а должен быть - по середине*/
+    left: 50%; /*Сдвинул текст на середину страницы*/
+    transform: translateX(-50%); /*Вернул обратно половину текста от середины*/
+    }
+}
+
+@media (min-width: 768px) {
+    .cover__subtitle {
+        font-size: 18px;
+        line-height: 122%;
+        margin: 299px auto 0;
+        max-width: 360px;
+      }
+}
+
+@media (min-width: 1024px) {
+    .cover__subtitle {
+        margin: 379px auto 0;
+      }
+}
+
+@media (min-width: 1280px) {
+    .cover__subtitle {
+        margin: 429px auto 0;
+      }
+}

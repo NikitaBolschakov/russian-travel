@@ -1,0 +1,12 @@
+.place__image {
+     max-width: calc(100% + (2*16px));
+     margin: 0 -16px 29px;
+}
+
+@media (min-width: 768px) {
+     .place__image {
+          max-width: 100%;
+          margin: 0;
+          grid-row: 2/4;
+     }
+ }

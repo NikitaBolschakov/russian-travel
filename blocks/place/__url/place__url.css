@@ -1,0 +1,20 @@
+.place__url {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+@media (min-width: 768px) {
+    .place__url {
+        grid-area: website;
+        margin: 0 0 48px;
+    }
+}
+
+.place__url:hover {
+    opacity: 0.8;
+}

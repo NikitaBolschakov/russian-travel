@@ -1,0 +1,25 @@
+.intro {
+    min-width: 288px;
+    color: white;
+    margin: 64px 16px;
+}
+
+@media (min-width: 768px) {
+    .intro {
+        min-width: 720px;
+        margin: 88px 24px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .intro {
+        max-width: 690px;
+        margin: 92px auto 92px 48px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .intro {
+        margin: 92px auto 92px 148px;
+    }
+}
