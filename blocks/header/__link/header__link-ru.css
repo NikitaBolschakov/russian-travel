@@ -14,3 +14,7 @@
         margin: 18px 18px 6px auto;
     }
 }
+
+.header__link-ru:hover {
+    opacity: 0.8;
+}

@@ -1,12 +1,12 @@
 .cover__title {
     position: absolute;
-    margin: 33px auto 97px;
+    margin: 0;
+    top: 33px;
     font-weight: 900;
     font-size: 32px;
     line-height: 109%;  
     text-align: center;
     color: #ffffff;
-    z-index: 1;
 
     /*При растяжении страницы текст остается у левого края, а должен быть - по середине*/
     left: 50%; /*Сдвинул текст на середину страницы*/
@@ -15,7 +15,7 @@
 
 @media (min-width: 768px) {
     .cover__title {
-        margin: 115px auto 0;
+        top: 115px;
         font-size: 72px;
         line-height: 106%;         
     }
@@ -23,12 +23,12 @@
 
 @media (min-width: 1024px) {
     .cover__title {
-        margin: 195px auto 0;      
+        top: 195px;      
     }
 }
 
 @media (min-width: 1280px) {
     .cover__title {
-        margin: 245px auto 0;      
+        top: 245px;     
     }
 }

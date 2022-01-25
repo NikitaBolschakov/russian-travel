@@ -5,8 +5,8 @@
     line-height: 114%;
     text-align: center;
     color: #ffffff;
-    margin: 119px auto 0;
-    z-index: 1;
+    margin: 0;
+    top: 119px;
   }
 
   @media (min-width: 540px) {
@@ -21,19 +21,19 @@
     .cover__subtitle {
         font-size: 18px;
         line-height: 122%;
-        margin: 299px auto 0;
+        top: 299px;
         max-width: 360px;
       }
 }
 
 @media (min-width: 1024px) {
     .cover__subtitle {
-        margin: 379px auto 0;
+        top: 379px;
       }
 }
 
 @media (min-width: 1280px) {
     .cover__subtitle {
-        margin: 429px auto 0;
+        top: 429px;
       }
 }
