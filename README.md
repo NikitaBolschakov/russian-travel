@@ -10,7 +10,7 @@
 Проект о путешествии по России.
 С описаниями и иллюстрацией интересных мест.
 
-*[Ссылка на проект](https://nikitabolschakov.github.io/russian-travel/)
+* [Ссылка на проект](https://nikitabolschakov.github.io/russian-travel/)
 
 ### Figma ###
 
