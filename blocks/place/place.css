@@ -11,8 +11,8 @@
         column-gap: 28px;
         grid-template-areas: 
         "title website"
-        "image paragraph-first"
-        "image paragraph-second";
+        "image paragraph-start"
+        "image paragraph-end";
     }
 }
 
