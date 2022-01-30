@@ -1,34 +1,31 @@
 .cover__title {
-    position: absolute;
-    margin: 0;
-    top: 33px;
     font-weight: 900;
     font-size: 32px;
     line-height: 109%;  
     text-align: center;
     color: #ffffff;
-
-    /*При растяжении страницы текст остается у левого края, а должен быть - по середине*/
-    left: 50%; /*Сдвинул текст на середину страницы*/
-    transform: translateX(-50%); /*Вернул обратно половину текста от середины*/
+    padding: 33px 0 16px;
+    margin: 0 auto;
+    max-width: 288px;
 }
 
 @media (min-width: 768px) {
     .cover__title {
-        top: 115px;
         font-size: 72px;
-        line-height: 106%;         
+        line-height: 106%;  
+        padding: 115px 0 32px; 
+        max-width: 560px;   
     }
 }
 
 @media (min-width: 1024px) {
     .cover__title {
-        top: 195px;      
+        padding: 195px 0 32px; 
     }
 }
 
 @media (min-width: 1280px) {
     .cover__title {
-        top: 245px;     
+        padding: 245px 0 32px;     
     }
 }
