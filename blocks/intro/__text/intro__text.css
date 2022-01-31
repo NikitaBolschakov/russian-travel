@@ -4,3 +4,15 @@
     line-height: 26px;
     margin: 0 0 33px;
 }
+
+@media (min-width: 768px) {
+    .intro__text {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .intro__text {
+        max-width: 690px;
+    }
+}

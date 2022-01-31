@@ -21,3 +21,10 @@
         margin: 0 48px 24px;
     }
 }
+
+@media (min-width: 1280px) {
+    .footer {
+        max-width: 1184px;
+        margin: 0 auto 24px;
+    }
+}

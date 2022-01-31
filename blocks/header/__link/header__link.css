@@ -1,20 +1,21 @@
-.header__link-en {
+.header__link {
     font-weight: normal;
     font-size: 18px;
     line-height: 20px;
     color: white;
+    margin: 14px 0px 8px 18px;
     text-decoration-line: none;
-    margin: 14px 0 8px;
 }
 
 @media (min-width: 768px) {
-    .header__link-en {
+    .header__link {
         font-size: 24px;
         line-height: 28px;
-        margin: 18px 0 6px;
+        margin: 18px 0px 6px 18px;
     }
 }
 
-.header__link-en:hover {
+.header__link:hover {
     opacity: 0.8;
+    transition: 300ms;
 }

@@ -3,12 +3,14 @@
     position: relative;
     min-height: 200px;
     background-image: url(../../../images/cover-trains.jpg);
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
     text-decoration-line: none;
 }
 
 @media (min-width: 768px) {
     .cover__link {
+        margin-top: 90px;
         min-height: 480px;
     }
 }
@@ -21,10 +23,8 @@
 
 @media (min-width: 1280px) {
     .cover__link {
-        min-width: 1184px;
+        max-width: 1184px;
         min-height: 740px;
-        margin: 0 48px 0;
+        margin: 0 auto 0;
     }
 }
-
-
